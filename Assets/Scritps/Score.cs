@@ -19,7 +19,7 @@ public class Score : MonoBehaviour {
     {
         if (other.tag == "ball")
         {
-            score++;
+            score +=  2;
             tScore.text = "Score: "+score.ToString();
             
         }
